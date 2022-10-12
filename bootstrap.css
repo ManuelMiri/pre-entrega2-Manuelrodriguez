@@ -1,0 +1,61 @@
+/* Body */
+*{
+    margin:0px ;
+    padding:0px;
+    box-sizing: border-box;}
+
+.bg-violet{
+    background-color: white;
+    font-size: 2rem;
+}
+
+/* Seccion del navegador */
+a:hover {text-shadow: 0 0 5px rgba(29, 75, 224, 0.514);
+}
+
+
+
+#navbarSupportedContent{
+    font-size: 1rem;
+}
+
+/* Seccion del Carrusel */
+.header{
+    padding-top: 10vh;
+}
+/* seccion cards */
+
+.card{
+    margin-top: 100px;
+    background: rgb(214, 220, 247);
+    background: radial-gradient(line, rgb(142, 159, 241) 50%, rgb(84, 187, 238) 100%);
+    
+}
+.parrafo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* pagina agendamiento */
+.main {
+    color: #36A0FF;
+    font-size: 20px;
+    padding: 20vh;
+    
+}
+.parrafo {
+    text-align: center;
+    color: black;
+}
+   
+h2{
+    color: black;
+}       
+.boton{
+    margin-left: 7px;
+    padding-top: 10px;
+
+}
+footer
+{background-color: #3e3edb50;
+}
+
