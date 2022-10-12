@@ -47,8 +47,10 @@ a:hover {text-shadow: 0 0 5px rgba(22, 71, 235, 0.514);
     color: black;
 }
    
-h2{
+.album h2{
     color: black;
+    font-size: 4vh;
+    
 }       
 .boton{
     margin-left: 7px;
