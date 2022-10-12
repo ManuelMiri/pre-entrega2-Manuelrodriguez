@@ -46,23 +46,28 @@
     <main class="main">
         <div class=".container d-flex justify-content-center">
             <div class="row">
-        <div class="parrafo mb-lg">
-            <h2>Ingreso de Datos para Agendar vehiculo</h2>
-            <p>Mediante el siuiente formulario podra enviar sus datos a nuestro servicio tecnico el cual lo contactara a la brevedad para detallar el ingreso de su vehiclo a nuestro taller.</p>   
+                <div class="parrafo mb-lg">
+                    <h2>Ingreso de Datos para Agendar vehiculo</h2>
+                    <p>Mediante el siuiente formulario podra enviar sus datos a nuestro servicio tecnico el cual lo contactara a la brevedad para detallar el ingreso de su vehiclo a nuestro taller.</p>   
         </div>
             <form class="col-lg">
                 <label for="exampleInputEmail1">Nombre</label>
-                <input type="text" class="form-control" id="exampleInputtext" placeholder="Ingrese su Nombre">  
+                    <input type="text" class="form-control" id="exampleInputtext" placeholder="Ingrese su Nombre">  
             
             <div class="row">
-                <label for="exampleInputPassword1">Apellido</label>
-                <input type="text" class="form-control" id="exampleInputtext" placeholder="Ingrese su Apellido">
+                <div class="col">
+                    <label for="exampleInputPassword1">Apellido</label>
+                    <input type="text" class="form-control" id="exampleInputtext" placeholder="Ingrese su Apellido">
+                </div>
             </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleInputPassword1">Placa Patente</label>
+                        <input type="text" class="form-control " id="exampleInputtext" placeholder="Ingrese su Placa">
+                    </div>
+        </div>
             <div class="row">
-                <label for="exampleInputPassword1">Placa Patente</label>
-                <input type="text" class="form-control " id="exampleInputtext" placeholder="Ingrese su Placa">
-            </div>
-            <div class="row">
+                <div class="col">
                 <label for="options1">Seleccione su Aseguradora</label>
                 <select name="options" id="options1" class="form-control">
                     <option value="">Seleccione</option>
@@ -71,9 +76,12 @@
                     <option value="3">Liberty</option>
                 </select>
             </div>
+            </div>
             <div class="row">
+                <div class="col ">
                     <label for="description1">Indiquenos sus Cometarios</label>
                     <textarea class="form-control" id="description1" rows="4" name="description" placeholder="Descripcion" required></textarea>
+                </div>
             </div>
             <div class="checkbox">
                 <label>
