@@ -10,7 +10,7 @@
 }
 
 /* Seccion del navegador */
-a:hover {text-shadow: 0 0 5px rgba(197, 207, 241, 0.514);
+a:hover {text-shadow: 0 0 5px rgba(22, 71, 235, 0.514);
 }
 
 
@@ -58,4 +58,8 @@ h2{
 footer
 {background-color: #3e3edb50;
 }
+/* mantencion pagina */
 
+.Fondo__mantencion{
+    width: ;
+}
