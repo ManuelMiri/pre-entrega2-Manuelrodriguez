@@ -9,6 +9,38 @@
     font-size: 2rem;
 }
 
+/* selector de etiqurta h1para animacion */
+p{
+    animation: 2s;
+    animation-name: aparecer;
+    animation-name: moveToRight;
+    animation-iteration-count: infinite;
+    animation: moveToRight 1s ease-in-out;
+    animation-delay: 10ms;
+    }
+    @keyframes aparecer {
+        100%{ color: #0a141d;     
+            opacity: 0;
+        }
+        100%{color: #00a2ff;
+            opacity:1;
+        }
+    }
+    @keyframes moveToRight {
+            0% {
+                transform: translatey(0px);
+            }
+            100% {
+                transform: translatey(20px);
+            }
+    }
+
+    
+    
+
+    
+
+
 /* Seccion del navegador */
 a:hover {text-shadow: 0 0 5px rgba(22, 71, 235, 0.514);
 }
@@ -46,7 +78,7 @@ a:hover {text-shadow: 0 0 5px rgba(22, 71, 235, 0.514);
     text-align: center;
     color: black;
 }
-   
+
 .album h2{
     color: black;
     font-size: 4vh;
